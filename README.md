@@ -9,6 +9,9 @@
 ## Remote Repository
 ## Git pull
 ## Undo commands
+## Discard command
+## Git fetch
+## Git merge
 
 
 
@@ -66,6 +69,31 @@
 2.git restore --staged file-name -> It removes file from staging area but keeps the changes .
 
 3. git reset -> It is used to undo changes by moving the project back to the previous state.
+
+4. git reset --hard -> Reset all changes completely.
+
+
+## Discard command
+   The discard command is used to undo changes in your working directory or staging area. Basically, it reverts files back       to the last committed state .
+
+  1. git restore <file>  -> Discard unstaged changes . Reverts the file to the last committed version.
+  2. git restore --staged <file>  -> Discard staged changes . Keeps your edits in the working directory but removes the file                                                               from the next commit.
+
+## Git fetch 
+   See remote updates . You can see if someone else pushed commits to the remote repository.
+
+1. git fetch -> it fetches updates from the default remote. If you only have one remote (usually origin).
+2. git fetch origin -> Explicitly fetches updates from the remote called origin. Useful if you have multiple remotes (like                          origin, upstream) and want to fetch from a specific one.
+
+## Git merge
+   It is used to combine the changes from one branch into another branch.
+steps to merge 2 branches
+  1. git checkout <target-branch> -> switch to the branch you want to merge in (ex:- main)
+  2. git merge <source-branch>  -> the branch you are merging from (ex:- x)
+       -> branch X will be merged into main and all the commits of x will be included in main. X remain unchanged.
+
+
+
 
 
 
