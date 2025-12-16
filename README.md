@@ -62,7 +62,9 @@
   These commands are used to reverse mistakes before or after committing code.
 
 1.git checkout -- file-name -> It is used to discard changes and restore last committed code.
+
 2.git restore --staged file-name -> It removes file from staging area but keeps the changes .
+
 3. git reset -> It is used to undo changes by moving the project back to the previous state.
 
 
