@@ -33,7 +33,7 @@ function App() {
           <input
             type="email"
             className="w-full px-3 py-2 bg-gray-100 border border-gray-400 text-black rounded 
-             focus:outline-none focus:ring-2 focus:ring-blue-500"
+             focus:outline-none focus:ring-2 focus:ring-blue-600"
             placeholder="Enter email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
@@ -48,7 +48,7 @@ function App() {
           <input
             type="password"
             className="w-full px-3 py-2 bg-gray-100 border border-gray-400 text-black rounded 
-             focus:outline-none focus:ring-2 focus:ring-blue-500"
+             focus:outline-none focus:ring-2 focus:ring-blue-600"
             placeholder="Enter password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
