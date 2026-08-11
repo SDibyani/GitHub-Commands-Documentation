@@ -16,7 +16,7 @@
 
 
 ## Introduction
-  GitHub is an online platform to manage codes and to collaborate with others for building software projects.
+  GitHub is an online platform to manage codes and to collaborate with others for building software projects
 
 ## Basic Git Commands
 
